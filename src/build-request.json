@@ -1,0 +1,66 @@
+{
+  "kind": "build_request",
+  "title": "Add complete contact details and company logo",
+  "projectName": "Akanksha Enterprises",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-6",
+      "text": "Update the contact section to display phone numbers 8329880055 and 9765729905, email b11082004@gmail.com, and address 'Nagpur Narendra Nagar, pincode 440015' in the contact information cards",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "contact details is 8329880055 or second no is 9765729905 and email is b11082004@gmail.com and address is Nagpur Narendra Nagar pincode is 440015"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Backend getContactInfo query returns phone numbers 8329880055 and 9765729905",
+        "Backend getContactInfo query returns email b11082004@gmail.com",
+        "Backend getContactInfo query returns address 'Nagpur Narendra Nagar, pincode 440015'",
+        "Contact section displays both phone numbers clearly",
+        "Contact section displays the email address",
+        "Contact section displays the complete address with pincode"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Display the generated company logo prominently in the header component, replacing or supplementing the current header branding",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-5"
+        ],
+        "quotes": [
+          "And make a good logo"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Logo image is displayed in the header component",
+        "Logo is visible on all viewport sizes (desktop and mobile)",
+        "Logo appears alongside or replaces the 'AKANKSHA ENTERPRISES' text branding",
+        "Logo uses the generated logo asset from frontend/public/assets/generated"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not modify frontend/src/hooks/useInternetIdentity.ts",
+    "Do not modify frontend/src/hooks/useActor.ts",
+    "Do not modify frontend/src/main.tsx",
+    "Do not modify frontend/src/components/ui directory"
+  ],
+  "nonGoals": [
+    "Changing the overall visual theme or color palette",
+    "Modifying the services section or scrap types",
+    "Adding new sections beyond what already exists",
+    "Changing the contact form functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional logo for AKANKSHA ENTERPRISES scrap trading company with industrial/recycling theme incorporating company initials or relevant iconography (logo.dim_400x400.png)"
+    ],
+    "edits": []
+  }
+}

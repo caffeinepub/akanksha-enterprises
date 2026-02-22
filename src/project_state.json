@@ -1,0 +1,92 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "Website for AKANKSHA ENTERPRISES, a scrap trading company dealing in all types of scrap. Owner: Bhupendra Singh Chandel",
+  "architectural_notes": [
+    "Website for scrap trading business",
+    "Company: AKANKSHA ENTERPRISES",
+    "Owner: Bhupendra Singh Chandel",
+    "Contact: 8329880055, 9765729905",
+    "Email: b11082004@gmail.com",
+    "Address: Nagpur Narendra Nagar, 440015"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional logo for AKANKSHA ENTERPRISES scrap trading company with industrial/recycling theme incorporating company initials or relevant iconography (logo.dim_400x400.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-homepage-that-displays-the-company-name-akanksha-enterprises-prominently-with-a-tagline-about-scrap-trading-services",
+      "title": "Create a homepage that displays the company name 'AKANKSHA ENTERPRISES' prominently with a tagline about scrap trading services",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-us-section-that-includes-information-about-the-company-owner-bhupendra-singh-chandel-and-the-company-s-focus-on-trading-all-types-of-scrap",
+      "title": "Create an 'About Us' section that includes information about the company owner Bhupendra Singh Chandel and the company's focus on trading all types of scrap",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-services-or-scrap-types-section-that-lists-the-various-types-of-scrap-materials-the-company-trades-in-e-g-metal-scrap-paper-scrap-plastic-scrap-electronic-scrap-etc",
+      "title": "Create a 'Services' or 'Scrap Types' section that lists the various types of scrap materials the company trades in (e.g., metal scrap, paper scrap, plastic scrap, electronic scrap, etc.)",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-contact-section-with-a-form-or-contact-information-display-for-potential-customers-to-reach-akanksha-enterprises",
+      "title": "Create a contact section with a form or contact information display for potential customers to reach AKANKSHA ENTERPRISES",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-clean-professional-visual-theme-appropriate-for-a-b2b-scrap-trading-business-with-earthy-industrial-colors-and-clear-typography-that-conveys-trust-and-reliability",
+      "title": "Implement a clean, professional visual theme appropriate for a B2B scrap trading business with earthy, industrial colors and clear typography that conveys trust and reliability",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-section-to-display-phone-numbers-8329880055-and-9765729905-email-b11082004-gmail-com-and-address-nagpur-narendra-nagar-pincode-440015-in-the-contact-information-cards",
+      "title": "Update the contact section to display phone numbers 8329880055 and 9765729905, email b11082004@gmail.com, and address 'Nagpur Narendra Nagar, pincode 440015' in the contact information cards",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create scrap trading website with company information",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Add contact details: phone 8329880055, 9765729905, email b11082004@gmail.com, address Nagpur Narendra Nagar 440015",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Display the generated company logo prominently in the header component, replacing or supplementing the current header branding",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "AKANKSHA ENTERPRISES",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

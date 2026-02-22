@@ -1,0 +1,22 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-22T09:14:00.325Z",
+  "summary": "The diff implements REQ-6 (contact information update) in both backend and frontend, but REQ-7 (logo display in header) is completely missing from the changes.",
+  "missing_requirements": [
+    {
+      "id": "REQ-7",
+      "requirement": "Display the generated company logo prominently in the header component, replacing or supplementing the current header branding",
+      "reason": "No changes to frontend/src/components/Header.tsx were made. The header component was not modified to include the logo image from frontend/public/assets/generated.",
+      "evidence": []
+    }
+  ],
+  "hallucinated_features": [],
+  "confidence": 0.95,
+  "changed_files": [
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/src/components/ContactSection.tsx",
+    "project_state.json"
+  ]
+}

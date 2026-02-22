@@ -1,0 +1,15 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the HomePage and Toaster for notifications.",
+  "frontend/src/pages/HomePage.tsx": "Main page component that composes all sections (Header, Hero, About, Services, Contact, Footer) into a single-page layout.",
+  "frontend/src/components/Header.tsx": "Sticky header with company logo, navigation menu, and mobile-responsive hamburger menu with smooth scroll navigation.",
+  "frontend/src/components/HeroSection.tsx": "Hero section featuring company name, tagline, hero image background, and call-to-action buttons.",
+  "frontend/src/components/AboutSection.tsx": "About section displaying owner information, company description, and four feature cards highlighting quality, expertise, pricing, and trust.",
+  "frontend/src/components/ServicesSection.tsx": "Services section showcasing eight types of scrap materials the company deals with in a responsive grid layout.",
+  "frontend/src/components/ServiceCard.tsx": "Reusable card component for displaying individual scrap service types with icon, title, and description.",
+  "frontend/src/components/ContactSection.tsx": "Contact section displaying company contact information (both phone numbers 8329880055 and 9765729905, email b11082004@gmail.com, and complete address with pincode 440015) fetched from backend, alongside an integrated contact form.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with validation, form state management, and backend integration for message submission with success/error notifications.",
+  "frontend/src/components/Footer.tsx": "Footer component with copyright information and attribution link to caffeine.ai with UTM tracking.",
+  "frontend/src/hooks/useQueries.ts": "Custom React Query hooks for fetching contact info, submitting messages, and retrieving all messages from the backend.",
+  "frontend/src/index.css": "Global styles with OKLCH color system featuring earthy, industrial color palette (forest greens, earth tones, grays) for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with custom color tokens, typography settings, border radius, shadows, and animations matching the industrial design theme."
+}
